@@ -1,0 +1,1 @@
+python main.py --dataset WN18RR --num_iterations 10000 --eval_step 100 --batch_size 1024 --lr 0.003 --emb_dim 500 --hidden_dim 500 --encoder QGNN --decoder TuckER --input_dropout 0.1 --hidden_dropout1 0.2 --hidden_dropout2 0.7

@@ -1,0 +1,1 @@
+python main.py --dataset umls --num_iterations 4000 --eval_step 100 --batch_size 1024 --lr 0.003 --emb_dim 504 --hidden_dim 504 --encoder OGNN --decoder TuckER --input_dropout 0.3 --hidden_dropout1 0.4 --hidden_dropout2 0.5

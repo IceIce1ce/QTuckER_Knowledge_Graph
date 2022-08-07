@@ -1,0 +1,1 @@
+python main.py --dataset kinship --num_iterations 3900 --eval_step 100 --batch_size 1024 --lr 0.0003 --emb_dim 200 --hidden_dim 200 --encoder QGNN --decoder TuckER --input_dropout 0.3 --hidden_dropout1 0.4 --hidden_dropout2 0.5
